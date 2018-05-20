@@ -41,4 +41,4 @@ RUN git clone https://github.com/lerwys/${IOC_REPO}.git /opt/epics/${IOC_REPO} &
 # where to put system-wide env-vars on docker-debian
 RUN . /root/.bashrc
 
-WORKDIR /opt/epics/startup/ioc/${IOC_REPO}/iocBoot/${BOOT_DIR}
+WORKDIR /opt/epics/${IOC_REPO}/iocBoot/${BOOT_DIR}
